@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+p {
+    color: darkgray;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    color: cyan;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.li1:after {
+    content: ' Pseudo';
+    font-weight: bolder;
+    color: crimson;
+}
+
+.li1:hover {
+    color: crimson;
+}
+
+p {
+    color: darkblue;
+}
+
+.secondP {
+    color: blue;
+}
