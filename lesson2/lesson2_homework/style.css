@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    background: url("https://www.mepixels.com/cache/efbc8fac/4k-road-field-horizon-mountains-clouds-sky-1140x1140-2VrJ1TQJ3.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: .87;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 42em;
+    width: 30em;
+    display: flex;
+    background: linear-gradient(225deg, rgba(12,208,72,1) 0%, rgba(73,255,0,1) 100%);    border-radius: 12px;
+    justify-content: center;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.radio {
+    display: flex;
+    position: relative;
+    color: white;
+    gap: 76px;
+    margin-right: 6em;
+}
+
+.radio input[type = "radio"] {
+    display: none;
+}
+
+.radio span {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    display: block;
+    position: absolute;
+    margin-left: -24px;
+    cursor: pointer;
+    box-shadow: 0 0 3px gray;
+    opacity: .7;
+    background-color: green;
+}
+
+.radio span:after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: #ffffff;
+    opacity: .7;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: all 300ms ease 100ms;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 3px grey;
+
+}
+
+.radio input[type="radio"]:checked ~ span:after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.check {
+    display: flex;
+}
+
+.input_box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 50px;
+}
+
+.input_box input {
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.41);
+    outline: none;
+    color: #1a1919;
+    width: 350px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.input_box span {
+    position: absolute;
+    left: 0;
+    margin-top: -31px;
+    padding: 7px;
+    pointer-events: none;
+    font-size: 1em;
+    color: white;
+    opacity: .5;
+}
+
+.nameemail {
+    display: flex;
+    width: 350px;
+}
+
+.message {
+    display: flex;
+    max-width: 350px;
+    max-height: 130px;
+    box-sizing: border-box;
+    padding-bottom: 69px;
+    padding-left: 5px;
+    min-height: 100px;
+}
+
+.button {
+    background-color: white;
+    width: 130px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.input_box .mess {
+    display: flex;
+    margin-top: -4px;
+}
+
+.input_box input:valid ~ span {
+    transform: scale(0);
+    transition: 130ms;
+}
