@@ -153,4 +153,6 @@ h1 {
 .input_box input:valid ~ span {
     transform: scale(0);
     transition: 130ms;
+
 }
+
