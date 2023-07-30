@@ -14,8 +14,8 @@
 }
 
 .box {
-    height: 42em;
-    width: 30em;
+    height: 90vh;
+    width: 65vh;
     display: flex;
     background: linear-gradient(225deg, rgba(12, 208, 72, 1) 0%, rgba(73, 255, 0, 1) 100%);
     border-radius: 12px;
@@ -90,6 +90,7 @@ h1 {
     flex-direction: column;
     position: relative;
     gap: 50px;
+    color: white;
 }
 
 .input_box input {
@@ -99,23 +100,11 @@ h1 {
     border-top: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.41);
     outline: none;
-    color: #1a1919;
+    color: rgba(255, 255, 255, 0.84);
     width: 350px;
     text-decoration: none;
     cursor: pointer;
 }
-
-.input_box span {
-    position: absolute;
-    left: 0;
-    margin-top: -31px;
-    padding: 7px;
-    pointer-events: none;
-    font-size: 1em;
-    color: white;
-    opacity: .5;
-}
-
 .nameemail {
     display: flex;
     width: 350px;
@@ -144,15 +133,11 @@ h1 {
     font-weight: 500;
     cursor: pointer;
 }
-
-.input_box .mess {
-    display: flex;
-    margin-top: -4px;
+.button input{
+    color: black;
+    font-size: 18px;
 }
-
-.input_box input:valid ~ span {
-    transform: scale(0);
-    transition: 130ms;
-
+input::placeholder{
+    color: rgba(255, 255, 255, 0.84);
 }
 
