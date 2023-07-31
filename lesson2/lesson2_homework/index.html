@@ -11,7 +11,7 @@
 <body>
 <div class="main">
     <div class="box">
-        <div class="inf">
+        <form class="inf">
             <h1>Contact Us</h1>
             <div class="radio">
                 <label class="check">
@@ -33,11 +33,13 @@
                     <input class="nameemail" type="email" name="email" required placeholder="Your Email">
                 </label>
                 <label class="mess">
-                    <input class="message" type="text" required="required" placeholder="Your Message">
+                    <textarea class="message" required="required" placeholder="Your Message"></textarea>
                 </label>
-                <form class="button"><input type="submit" required="required" value="Submit"></form>
+                <label class="button">
+                    <input type="button" value="Submit">
+                </label>
             </div>
-        </div>
+        </form>
     </div>
 </div>
 </body>
