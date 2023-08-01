@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.hero {
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/lesson3/lesson3_homework/img/cover.png);
+}
+
+.header-main {
+    display: flex;
+}
+
+.head {
+    display: flex;
+    padding: 55px 165px;
+    justify-content: space-between;
+}
+
+.hamburger {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.ham-lines {
+    width: 17px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: black;
+}
+
+.head-box {
+    width: 616px;
+    height: 412px;
+    margin-top: 105px;
+    padding: 0 165px;
+    gap: 23px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.head-box_text {
+    color: #FFF;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px
+}
+
+.head-box_small_text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.triangle {
+    border-width: 8px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px;
+    color: #FFD723;
+}
+
+.triangle_text {
+    color: #FFD723;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.head-box_lower_text {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.main {
+    padding: 0 165px;
+    margin-top: 140px;
+}
+
+h2 {
+    color: #4D533C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    width: 607px
+}
+
+.container_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_inf {
+    display: flex;
+    flex-direction: column;
+    width: 197px;
+    height: 248px;
+    padding: 30px;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+h3 {
+    color: #4D533C;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.container_text {
+    color: rgba(33, 56, 66, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.container_lower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+    color: #D4D6D4;
+
+}
+
+.triangle_grey {
+    border-width: 8px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px;
+}
+
+.triangle_text_grey {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.box {
+    width: 1335px;
+    height: 362px;
+    box-shadow: 50px 130px 100px 0 rgba(0, 0, 0, 0.15);
+    background: #FAFAFA;
+    margin-left: -165px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 70px 215px 70px 165px;
+    gap: 50px;
+    bottom: -168px;
+}
+
+.box_main {
+    color: #4D533C;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.box_triangle {
+    display: flex;
+    align-items: center;
+    color: #D4D6D4;
+
+}
+
+.footer {
+    width: 100%;
+    height: 920px;
+    background-image: url(/lesson3/lesson3_homework/img/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 230px 165px 55px 165px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-bottom: 154px;
+}
+
+.footer_upper {
+    width: 452px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blured_text {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.bald_text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer_upper_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horisontal_hr {
+    width: 1110px;
+    height: 1px;
+    background: #5D6544;
+    border: none;
+    margin: 52px 0 60px 0;
+}
+
+.footer_mid_block {
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_mid_name {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.footer_mid_text {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 160px;
+}
+
+.footer_mid_block_wide {
+    display: inline-flex;
+    padding-right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+    width: 270px;
+}
+
+.footer_mid_text_wide {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer_mid {
+    display: flex;
+    justify-content: space-between;
+    width: 1057px;
+    gap: 21px;
+    margin-bottom: 60px;
+}
+
+.mail {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.icons {
+    display: flex;
+    width: 171px;
+    height: 25px;
+    justify-content: space-between;
+}
+
+.oval {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: #444A34;
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    margin: 7px 0 0 11px;
+    cursor: pointer;
+}
+
+.vertical_hr {
+    width: 1px;
+    height: 260px;
+    background: #5D6544;
+    border: none;
+}
+
+.reserves {
+    color: #B5C096;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    padding: 25px 0 48px 0;
+    box-sizing: border-box;
+}
+
+.container_lower,.box_triangle:hover{
+    color: #FFD723;
+    cursor: pointer;
+}
