@@ -1,20 +1,3 @@
-@media (max-device-width: 640px) {
-
-
-    .footer_mid {
-        flex-direction: column;
-        width: auto;
-    }
-
-    .footer_bottom {
-        width: auto;
-    }
-
-    .footer {
-        height: 1529px;
-    }
-}
-
 @media (max-device-width: 1340px) {
     .box {
         display: none;
@@ -64,3 +47,20 @@
         align-items: center;
     }
 }
+@media (max-device-width: 640px) {
+
+
+    .footer_mid {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .footer_bottom {
+        width: auto;
+    }
+
+    .footer {
+        height: 1529px;
+    }
+}
+

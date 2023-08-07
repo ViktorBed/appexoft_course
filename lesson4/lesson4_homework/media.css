@@ -272,15 +272,18 @@
         width: 1036px;
         margin-top: -217px;
     }
-    .footer_upper{
+
+    .footer_upper {
         display: flex;
         flex-direction: column;
         margin-bottom: 113px;
     }
-    .footer{
+
+    .footer {
         height: 1537px;
     }
-    .footer_mid{
+
+    .footer_mid {
         display: flex;
         flex-direction: column;
     }

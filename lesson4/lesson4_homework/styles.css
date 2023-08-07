@@ -124,7 +124,8 @@ h2 {
     justify-content: space-between;
     gap: 15px;
 }
-.big{
+
+.big {
     display: flex;
     max-width: 1057px;
 }
