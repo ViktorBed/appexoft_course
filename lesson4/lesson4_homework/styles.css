@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.hero {
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/lesson4/lesson4_homework/img/cover.png);
+    width: 100%;
+}
+
+.header-main {
+    display: flex;
+}
+
+.head {
+    display: flex;
+    padding: 55px 165px;
+    justify-content: space-between;
+}
+
+.hamburger {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.ham-lines {
+    width: 17px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: black;
+}
+
+.head-box {
+    width: 616px;
+    height: 412px;
+    margin-top: 105px;
+    padding: 0 165px;
+    gap: 23px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.head-box_text {
+    color: #FFF;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px
+}
+
+.head-box_small_text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.triangle {
+    border-width: 8px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px;
+    color: #FFD723;
+}
+
+.triangle_text {
+    color: #FFD723;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.head-box_lower_text {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.main {
+    padding: 0 165px;
+    margin-top: 140px;
+}
+
+h2 {
+    color: #4D533C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    width: 607px
+}
+
+.container_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.big{
+    display: flex;
+    max-width: 1057px;
+}
+
+.con2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.foot_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container_inf {
+    display: flex;
+    flex-direction: column;
+    width: 179px;
+    height: 248px;
+    padding: 30px;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+h3 {
+    color: #4D533C;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.container_text {
+    color: rgba(33, 56, 66, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.container_lower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+    color: #D4D6D4;
+
+}
+
+.triangle_grey {
+    border-width: 8px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px;
+}
+
+.triangle_text_grey {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.box {
+    max-width: 1335px;
+    min-width: 972px;
+    height: 362px;
+    box-shadow: 50px 130px 100px 0 rgba(0, 0, 0, 0.15);
+    background: #FAFAFA;
+    margin-left: -165px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 70px 215px 70px 165px;
+    gap: 50px;
+    bottom: -168px;
+}
+
+.box_main {
+    color: #4D533C;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.box_triangle {
+    display: flex;
+    align-items: center;
+    color: #D4D6D4;
+
+}
+
+.footer {
+    width: 100%;
+    height: 920px;
+    background-image: url(/lesson3/lesson3_homework/img/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 230px 165px 55px 165px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-bottom: 154px;
+}
+
+.footer_upper {
+    width: 452px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blured_text {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.bald_text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer_upper_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horisontal_hr {
+    max-width: 1110px;
+    height: 1px;
+    background: #5D6544;
+    border: none;
+    margin: 52px 0 60px 0;
+}
+
+.footer_mid_block {
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_mid_name {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.footer_mid_text {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 160px;
+}
+
+.footer_mid_block_wide {
+    display: inline-flex;
+    padding-right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+    width: 270px;
+}
+
+.footer_mid_text_wide {
+    color: #B6C197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer_mid {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1057px;
+    gap: 4px;
+    margin-bottom: 60px;
+}
+
+.mail {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.icons {
+    display: flex;
+    width: 171px;
+    height: 25px;
+    justify-content: space-between;
+}
+
+.oval {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: #444A34;
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    margin: 7px 0 0 11px;
+    cursor: pointer;
+}
+
+.vertical_hr {
+    width: 1px;
+    height: 260px;
+    background: #5D6544;
+    border: none;
+}
+
+.reserves {
+    color: #B5C096;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1110px;
+    padding: 25px 0 48px 0;
+    box-sizing: border-box;
+}
+
+.container_lower:hover, .box_triangle:hover {
+    color: #FFD723;
+    cursor: pointer;
+}
+
+.mid_left_block_text {
+    color: rgba(77, 83, 60, 0.90);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.block_h {
+    color: #4D533C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    width: auto;
+}
+
+.block_inf {
+    color: rgba(33, 56, 66, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 42px;
+}
+
+.mid_left_block {
+    width: 475px;
+    height: 366px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -65px;
+}
+
+.mid_right_block {
+    background: #FFF;
+    box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+    min-width: 420px;
+    max-width: 479px;
+    height: 644px;
+    margin-top: -294px;
+    margin-left: 56px;
+}
+
+.mid_upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.up_text {
+    color: #4D533C;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 234px 8px 0 30px;
+}
+
+.oval1 {
+    background-image: url(/lesson4/lesson4_homework/img/oval1.svg);
+    filter: drop-shadow(20px 25px 43px rgba(0, 0, 0, 0.18));
+    width: 242px;
+    height: 203px;
+    background-repeat: no-repeat;
+    padding: 30px 122px;
+    margin: 33px -1px;
+}
+
+.oval_text {
+    color: #4D533C;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.oval_lower {
+    color: #152934;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.adaptive {
+    max-width: 1362px;
+    height: 210px;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 662px;
+    margin-right: -165px;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 156px;
+    height: 113px;
+}
+
+.img1 {
+    background-image: url("/lesson4/lesson4_homework/img/16_Andrew-Porter-Logo.svg");
+
+}
+
+.img2 {
+    background-image: url("/lesson4/lesson4_homework/img/17_Jalen-Rose-Leadership-Academy-Logo.svg");
+}
+
+.img3 {
+    background-image: url("/lesson4/lesson4_homework/img/Wal.svg");
+}
+
+.img4 {
+    background-image: url("/lesson4/lesson4_homework/img/Ideal.svg");
+}
+
+.img5 {
+    background-image: url("/lesson4/lesson4_homework/img/PhalenLeadership.svg");
+}
+
+.section_hr {
+    height: 1px;
+    background: rgba(33, 56, 66, 0.10);
+    border: none;
+    margin: 150px 0;
+}
+
+.mid_text {
+    display: flex;
+    max-width: 1120px;
+    height: 174px;
+    gap: 133px;
+    margin-bottom: 50px;
+}
+
+.bitmap1 {
+    background-image: url("/lesson4/lesson4_homework/img/Image.svg");
+    width: 978px;
+    height: 550px;
+    background-repeat: no-repeat;
+    margin-left: -278px;
+    background-position: center;
+
+}
+
+.photo_block1 {
+    display: flex;
+    flex-direction: column;
+    min-width: 475px;
+    max-width: 475px;
+    height: 397px;
+    gap: 24px;
+}
+
+.photo_block2 {
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    height: 397px;
+    gap: 24px;
+    margin-top: -536px;
+}
+
+.photo_block3 {
+    display: flex;
+    flex-direction: column;
+    min-width: 475px;
+    max-width: 475px;
+    height: 397px;
+    gap: 24px;
+    margin: auto 0;
+}
+
+.block_with_photo {
+    display: flex;
+    gap: 31px;
+}
+
+.bitmap2 {
+    background-image: url(/lesson4/lesson4_homework/img/Bitmap.svg);
+    background-repeat: no-repeat;
+    max-width: 1020px;
+    height: 549px;
+    border-radius: 2px;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: -12px;
+    margin-right: -165px;
+    margin-left: 622px;
+    background-position: center;
+
+}
+
+.mid_second {
+    margin-top: 165px;
+}
+
+.mid_third {
+    margin-top: 113px;
+}
+
+.bitmap3 {
+    background-image: url(/lesson4/lesson4_homework/img/Bitmap1.svg);
+    width: 978px;
+    height: 550px;
+    background-repeat: no-repeat;
+    margin-left: -283px;
+    background-position: center;
+    margin-top: 150px;
+}
+
+.photo_absolute1 {
+    fill: #FFF;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.15));
+    width: 453px;
+    height: 243px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 628px;
+    left: 337px;
+    background-color: white;
+}
+
+.absolute_text {
+    color: #4D533C;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    width: 390px;
+    height: 111px;
+    padding: 30px;
+}
+
+.oval2 {
+    background-image: url(/lesson4/lesson4_homework/img/oval2.svg);
+    filter: drop-shadow(20px 25px 43px rgba(0, 0, 0, 0.18));
+    width: 223px;
+    height: 90px;
+    background-repeat: no-repeat;
+    padding: 0 93px;
+    margin: -18px 21px 0 4px;
+    display: flex;
+    align-items: center;
+}
+
+.oval2_text {
+    color: #4D533C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.oval2_lower {
+    color: #152934;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.photo_absolute2 {
+    position: relative;
+    fill: #FFF;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.15));
+    width: 453px;
+    height: 243px;
+    border-radius: 5px;
+    bottom: 36px;
+    right: -380px;
+    background-color: white;
+}
+
+.oval3 {
+    background-image: url(/lesson4/lesson4_homework/img/oval3.svg);
+    filter: drop-shadow(20px 25px 43px rgba(0, 0, 0, 0.18));
+    width: 223px;
+    height: 90px;
+    background-repeat: no-repeat;
+    padding: 0 93px;
+    margin: -18px 21px 0 4px;
+    display: flex;
+    align-items: center;
+}
+
+.photo_absolute3 {
+    fill: #FFF;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.15));
+    width: 453px;
+    height: 243px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 569px;
+    right: 539px;
+    background-color: white;
+}
+
+.oval4 {
+    background-image: url(/lesson4/lesson4_homework/img/oval4.svg);
+    filter: drop-shadow(20px 25px 43px rgba(0, 0, 0, 0.18));
+    width: 223px;
+    height: 90px;
+    background-repeat: no-repeat;
+    padding: 0 93px;
+    margin: -18px 21px 0 4px;
+    display: flex;
+    align-items: center;
+}
+
