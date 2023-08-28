@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+  margin: 0;
+}
+
+.Like{
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+img{
+  background: white;
+}
+p{
+  margin: 20px;
+}
+.expand {
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  margin-left: 20px;
+}
