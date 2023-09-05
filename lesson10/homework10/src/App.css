@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+
+}
+
+.header a[class='active'] {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+a{
+    text-decoration: none;
+    color: snow;
+    font-size: 22px;
+}
+
+a:hover {
+    color: dodgerblue;
+    transition: 300ms ease-in-out;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 500px;
+    gap: 20px;
+    padding-top: 20px;
+    color: snow;
+    position: absolute;
+}
+
+.bg {
+    background-image: url("./Photo/b.webp");
+    height: 622px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+position: absolute}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/A_New_Hope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Attack_of_the_Clones.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Return_of_the_Jedi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Revenge_of_the_Sith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/The_Empire_Strikes_Back.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/The_Phantom_Menace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Photo/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/Pages/ExersiceDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/Pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/BodyPart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/ExerciseCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/ExerciseVideos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Exercises.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/HeroBanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/HorizontalScrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/SearchExercises.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/SimularExercise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/utils/fetchData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson4/lesson4_homework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson4/lesson4_homework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson4/lesson4_homework/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classwork10/lesson10/src/components/ThemeToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork10/lesson10/src/components/ThemeToggle.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UweKuxiXYirLAzd2fecxCV5io9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/appexoft_course/lesson4/lesson4_homework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\appexoft_course\lesson10\homework10\src\Photo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="" />
+      <created>1693855009606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693855009606</updated>
+      <workItem from="1693855010624" duration="9009000" />
+      <workItem from="1693864291927" duration="7577000" />
+      <workItem from="1693910054237" duration="2596000" />
+      <workItem from="1693913868720" duration="2000" />
+      <workItem from="1693914434799" duration="20000" />
+      <workItem from="1693929636052" duration="5116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
