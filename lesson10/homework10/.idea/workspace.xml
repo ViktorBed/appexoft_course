@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/A_New_Hope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Attack_of_the_Clones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Return_of_the_Jedi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Revenge_of_the_Sith.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/The_Empire_Strikes_Back.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/The_Phantom_Menace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Photo/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/Pages/ExersiceDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/Pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/BodyPart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/ExerciseCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/ExerciseVideos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Exercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/HeroBanner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/HorizontalScrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/SearchExercises.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/components/SimularExercise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson11/homework11/src/utils/fetchData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson4/lesson4_homework/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson4/lesson4_homework/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson4/lesson4_homework/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classwork10/lesson10/src/components/ThemeToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../classwork10/lesson10/src/components/ThemeToggle.js" afterDir="false" />
-    </list>
+    <list default="true" id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="starwors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/appexoft_course/lesson4/lesson4_homework",
+    "last_opened_file_path": "E:/appexoft_course/lesson11/homework11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,11 +103,32 @@
       <workItem from="1693910054237" duration="2596000" />
       <workItem from="1693913868720" duration="2000" />
       <workItem from="1693914434799" duration="20000" />
-      <workItem from="1693929636052" duration="5116000" />
+      <workItem from="1693929636052" duration="5769000" />
     </task>
+    <task id="LOCAL-00001" summary="starwors">
+      <option name="closed" value="true" />
+      <created>1693935512080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693935512081</updated>
+    </task>
+    <task id="LOCAL-00002" summary="starwors">
+      <option name="closed" value="true" />
+      <created>1693935539883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693935539883</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starwors" />
+    <option name="LAST_COMMIT_MESSAGE" value="starwors" />
   </component>
 </project>
