@@ -1,4 +1,4 @@
-import {put, takeEvery, call} from "redux-saga/effects"
+ import {put, takeEvery, call} from "redux-saga/effects"
 
 import {FETCH_USERS, setUsers} from "../store/userReducer";
 
