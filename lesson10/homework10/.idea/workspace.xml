@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="starwors" />
+    <list default="true" id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="starwors">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/homework12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,21 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/appexoft_course/lesson11/homework11",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Program Files/nodejs/node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/appexoft_course/lesson12/homework12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Program Files/nodejs/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -104,6 +121,9 @@
       <workItem from="1693913868720" duration="2000" />
       <workItem from="1693914434799" duration="20000" />
       <workItem from="1693929636052" duration="5769000" />
+      <workItem from="1694118153346" duration="619000" />
+      <workItem from="1694216569141" duration="555000" />
+      <workItem from="1694430430546" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="starwors">
       <option name="closed" value="true" />
