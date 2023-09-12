@@ -7,7 +7,7 @@ function App() {
     <div className="bg-primary">
       App
       <img src={logo} alt="logo" />
-        <NavHero/>
+
     </div>
   );
 }
