@@ -4,9 +4,7 @@ import NavHero from "./components/NavHero";
 
 function App() {
   return (
-    <div className="bg-primary">
-      App
-      <img src={logo} alt="logo" />
+    <div>
         <NavHero/>
     </div>
   );
