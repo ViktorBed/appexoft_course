@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31af60b-2da8-447d-a31b-372cb2c06129" name="Changes" comment="starwors">
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Componetns/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Componetns/Mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Pages/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Pages/Store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Styles/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/homework12.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lesson13/homework13/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson12/homework12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lesson12/homework12/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +43,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/appexoft_course/lesson12/homework12&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/appexoft_course/lesson10/homework10&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -124,6 +115,8 @@
       <workItem from="1694118153346" duration="619000" />
       <workItem from="1694216569141" duration="555000" />
       <workItem from="1694430430546" duration="9000" />
+      <workItem from="1694782475241" duration="515000" />
+      <workItem from="1694783314968" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="starwors">
       <option name="closed" value="true" />

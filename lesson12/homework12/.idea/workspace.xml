@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8957080-cfcc-42bd-b801-3467b25ef329" name="Changes" comment="commit" />
+    <list default="true" id="c8957080-cfcc-42bd-b801-3467b25ef329" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Componetns/Mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Pages/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Pages/Store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson15/homework15/src/Styles/Style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "E:/appexoft_course/lesson11/homework11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,6 +86,7 @@
       <workItem from="1694216831083" duration="295000" />
       <workItem from="1694430441047" duration="359000" />
       <workItem from="1694466495891" duration="39000" />
+      <workItem from="1694782442765" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
