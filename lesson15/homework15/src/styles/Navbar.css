@@ -1,9 +1,10 @@
 .img {
     max-width: 300px;
     max-height: 300px;
-
+    height: 240px;
     border-radius: 7px 7px 0 0;
 }
+
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -23,8 +24,8 @@
     line-height: 25px;
     border: none;
     background-color: snow;
-    animation: scaleUp 0.5s ease-out;
-    animation-fill-mode: forwards;
+    transition: all 1s ease-out;
+
 
 }
 
@@ -53,15 +54,10 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
-    animation: scaleUp 0.5s ease-out;
-    animation-fill-mode: forwards;
-
 }
 
 .link:hover {
-    animation: scaleDown 0.5s ease-out;
-    animation-fill-mode: forwards;
-    cursor: pointer;
+    transform: scale(1.2);
 }
 
 

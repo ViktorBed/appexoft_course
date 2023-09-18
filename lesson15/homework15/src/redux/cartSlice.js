@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import products from "../Componetns/Mock";
+
+import products from "../components/Mock";
 const initialState = {
     cart: [],
     items: products,
@@ -23,10 +24,7 @@ const cartSlice = createSlice({
         getCartTotal: (state) => {
             let { totalQuantity, totalPrice } = state.cart.reduce(
                 (cartTotal, cartItem) => {
-                    console.log("cartTotal", cartTotal);
-                    console.log("cartItem", cartItem);
                     const { price, quantity } = cartItem;
-                    console.log(price, quantity);
                     const itemTotal = price * quantity;
                     cartTotal.totalPrice += itemTotal;
                     cartTotal.totalQuantity += quantity;

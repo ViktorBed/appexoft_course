@@ -1,14 +1,14 @@
-import {useEffect} from "react";
-import {useSelector, useDispatch} from "react-redux";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 
-
-import "../Styles/cartPage.css"
+import "../styles/CartPage.css";
+import "../styles/media/media.css"
 import {
     getCartTotal,
     removeItem,
     decreaseItemQuantity,
     increaseItemQuantity,
-} from "../Redux/cartSlice";
+} from "../redux/cartSlice";
 
 const CartPage = () => {
     const {cart, totalQuantity, totalPrice} = useSelector(
@@ -19,36 +19,46 @@ const CartPage = () => {
 
     useEffect(() => {
         dispatch(getCartTotal());
-    }, [cart, dispatch]);
+    }, [cart]);
+
+    const remove =(data)=>{
+        dispatch(removeItem(data.id))
+    }
+
+    const decrease =(data)=>{
+        dispatch(decreaseItemQuantity(data.id))
+    }
+
+    const increase=(data)=>{
+        dispatch(increaseItemQuantity(data.id))
+    }
 
     return (
-        <div className={"cartBlock"}>
-            <div className={"cart"}>
-                <div className={"name"}>
+        <div className="cartBlock">
+            <div className="cart">
+                <div className="name">
                     <h5>Cart - {cart.length} items</h5>
                 </div>
-                <div className={"hr"}></div>
-                <div>
+                <div className="hr"></div>
+                <div className={"card"}>
                     {cart?.map((data) => (
-                        <div className={"list"} key={data.id}>
-                            <div className={"box"}>
+                        <div className="list" key={data.id}>
+                            <div className="box">
                                 <div>
                                     <div>
-                                        <img className={"newImg"} src={data.img} alt=""/>
+                                        <img className="newImg" src={data.img} alt=""/>
                                     </div>
                                 </div>
-
                                 <div>
                                     <p>
-                                        <strong className={"cartName"}>{data.title}</strong>
+                                        <strong className="cartName">{data.title}</strong>
                                     </p>
-                                    <button className={"trash"}
+                                    <button className="trash"
                                             type="button"
                                             data-mdb-toggle="tooltip"
                                             title="Remove item"
-                                            onClick={() => dispatch(removeItem(data.id))}
-                                    >
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12"
+                                            onClick={() => remove(data)}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon"
                                              viewBox="0 0 24 24"
                                              fill="none">
                                             <path
@@ -57,82 +67,60 @@ const CartPage = () => {
                                                 strokeLinejoin="round"/>
                                         </svg>
                                     </button>
-
                                 </div>
-
                             </div>
-                            <div className={"numbs"}>
-                                <div className={"plusMinus"}>
-                                    <button className={"button"}
-                                            onClick={() =>
-                                                dispatch(decreaseItemQuantity(data.id))
-                                            }
-                                    >
-                                        <svg width="11" height="12" viewBox="0 0 24 24" fill="none"
+                            <div className="numbs">
+                                <div className="plusMinus">
+                                    <button className="button" onClick={() => decrease(data)}>
+                                        <svg className="icon" viewBox="0 0 24 24" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
                                             <g id="Edit / Remove_Minus">
-                                                <path id="Vector" d="M6 12H18" stroke="white" strokeWidth="2"
-                                                      strokeLinecap="round" strokeLinejoin="round"/>
+                                                <path id="Vector" d="M6 12H18" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                                             </g>
                                         </svg>
-
                                     </button>
-
                                     <div>
                                         <input
                                             id="form1"
-
                                             value={data.quantity}
                                             type="number"
-                                            className={"form"}
-                                            onChange={() => null}
-
-                                        />
-                                        <label className={"quantity"}>
+                                            className="form"
+                                            onChange={() => null}/>
+                                        <label className="quantity">
                                             Quantity
                                         </label>
                                     </div>
-
-                                    <button className={"button"}
-                                            onClick={() =>
-                                                dispatch(increaseItemQuantity(data.id))
-                                            }
-                                    >
-                                        <svg width="11" height="12" viewBox="0 0 24 24" fill="none"
+                                    <button className="button" onClick={() => increase(data)}>
+                                        <svg className="icon" viewBox="0 0 24 24" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
                                             <g id="Edit / Add_Plus">
                                                 <path id="Vector" d="M6 12H12M12 12H18M12 12V18M12 12V6" stroke="white"
                                                       strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                                             </g>
                                         </svg>
-
                                     </button>
                                 </div>
-
                                 <p>
-                                    <strong>{data.price}</strong>
+                                    <strong className="price">{data.price}</strong>
                                 </p>
                             </div>
-                            <div className={"hr2"}></div>
+                            <div className="hr2"></div>
                         </div>
-
                     ))}
                 </div>
-<div className={"leftBottom"}></div>
+                <div className="leftBottom"></div>
             </div>
-            <div className={"rightBlock"
-            }>
+            <div className="rightBlock">
                 <div>
                     <h5>Summary</h5>
                 </div>
-                <div className={"hr3"}></div>
-
-                <div className={"bottom"}>
-                    <div className={"length"}>
-                        <div className={"total"}>Total Quantity
+                <div className="hr3"></div>
+                <div className="bottom">
+                    <div className="length">
+                        <div className="total">Total Quantity
                             <span>{totalQuantity}</span>
                         </div>
-                        <div className={"total"}>
+                        <div className="total">
                             <div>
                                 <strong>Total amount</strong>
                             </div>
@@ -141,8 +129,7 @@ const CartPage = () => {
                             </span>
                         </div>
                     </div>
-
-                    <button className={"checkout"} type="button">
+                    <button className="checkout" type="button">
                         Go to checkout
                     </button>
                 </div>
