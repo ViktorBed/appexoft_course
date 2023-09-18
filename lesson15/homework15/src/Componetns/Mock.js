@@ -1,9 +1,3 @@
-import {useDispatch} from "react-redux";
-
-import {addToCart} from "../Redux/CartSlice";
-import "../Styles/Style.css"
-
-
 const products = [
     {
         id: 1,
@@ -42,23 +36,4 @@ const products = [
     },
 ];
 
-const ProductList = () => {
-    const dispatch =useDispatch()
-        return (
-            <div className={"blocks"}>
-                {products.map(({id, img, title, price}) => (
-                    <div key={id}>
-                        <img className={"img"} src={img} alt={title} height="240"/>
-                        <div className={"cardInf"}>
-                            <h3>{title}</h3>
-                            <p>${price}</p>
-                            <button onClick={()=>dispatch(addToCart({title,img}))}>Add to Cart</button>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        );
-
-};
-
-export default ProductList;
+export default products;

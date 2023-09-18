@@ -1,24 +1,23 @@
-import {Route, Routes} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-import AllProducts from "./Pages/AllProducts";
-import Cart from "./Pages/Cart";
-import Home from "./Pages/Home";
-import Layout from "./Componetns/Layout";
-import NotFoundPage from "./Pages/NotFoundPage";
+import "./index.css"
+import Navbar from "./Pages/Navbar";
+import ProductCard from "./Pages/ProductCard";
+import CartPage from "./Pages/cartPage";
+import NotFound from "./Pages/NotFound";
 
 function App() {
     return (
-        <>
-            <Routes>
-                <Route path={'/'} element={<Layout/>}>
-                    <Route path={"/"} element={<Home/>}/>
-                    <Route path={'/products'} element={<AllProducts/>}/>
-                    <Route path={'/cart'} element={<Cart/>}/>
-                    <Route path={'*'} element={<NotFoundPage/>}/>
-                </Route>
-            </Routes>
-        </>
+            <div>
+                <Navbar />
+                <Routes>
+                    <Route exact path="/" element={<ProductCard/>} />
+                    <Route path="/cart" element={<CartPage/>} />
+                    <Route path={'*'} element={<NotFound/>}/>
+                </Routes>
+            </div>
     );
 }
 
 export default App;
+
