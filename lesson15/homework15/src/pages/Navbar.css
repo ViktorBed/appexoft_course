@@ -1,0 +1,64 @@
+.img {
+    max-width: 300px;
+    max-height: 300px;
+    height: 280px;
+    border-radius: 7px 7px 0 0;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 50px 8px 50px;
+    align-items: center;
+    background: #FBFBFB;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 12px 0 rgba(0, 0, 0, 0.07);
+
+}
+
+.link {
+    color: #3B71CA;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    border: none;
+    background-color: snow;
+    transition: all 1s ease-out;
+
+
+}
+
+.active {
+    color: #181717;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Nav {
+    color: rgba(0, 0, 0, 0.90);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #3B71CA;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.link:hover {
+    transform: scale(1.2);
+}
+
+
+

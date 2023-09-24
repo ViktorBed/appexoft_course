@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import "../styles/CartPage.css";
-import "../styles/media/media.css"
+import "./CartPage.css";
+import "./media.css"
 import {
     getCartTotal,
     removeItem,

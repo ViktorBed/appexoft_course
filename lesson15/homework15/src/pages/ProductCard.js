@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import "../styles/ProductCard.css"
+import "./ProductCard.css"
 import { addToCart } from "../redux/cartSlice";
 
 export default function App() {

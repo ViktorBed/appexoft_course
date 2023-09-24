@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
 import { getCartTotal } from "../redux/cartSlice";
-import "../styles/Navbar.css"
+import "./Navbar.css"
 
 export default function App() {
     const {cart, totalQuantity} = useSelector((state) => state.allCart);

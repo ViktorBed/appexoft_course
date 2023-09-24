@@ -30,6 +30,7 @@ const cartSlice = createSlice({
                     cartTotal.totalQuantity += quantity;
                     return cartTotal;
                 },
+
                 {
                     totalPrice: 0,
                     totalQuantity: 0,
@@ -55,6 +56,7 @@ const cartSlice = createSlice({
                 if (item.id === action.payload) {
                     return { ...item, quantity: item.quantity - 1 };
                 }
+
                 return item;
             });
         },
